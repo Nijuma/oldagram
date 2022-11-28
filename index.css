@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    
+    background: #F5F5F5;
+}
+
+.bigContainer{
+    width: 500px;
+    background-color: #fff;
+    margin: 0 auto
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #c4c4c4;
+    margin-bottom: 30px
+}
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+  
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.location{
+ display: block;
+ font-size: 12px;
+}
+
+.logo{
+  margin-left: 10px;
+}
+
+.user,.vanGough{
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+  
+}
+
+.icons{
+  margin-top: 13px;
+  margin-left: 8px;
+}
+
+.like{
+  font-weight: 800;
+  margin-left: 8px;
+}
+
+.comments{
+    margin-left: 8px;
+}
+
+.icon1:hover{
+    background-color: red;
+    opacity: .3;
+    
+}
+
